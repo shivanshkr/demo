@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test:coverage": "ng test --no-watch --code-coverage --browsers ChromeHeadless"
+    "test:coverage": "ng test --no-watch --code-coverage --browsers ChromeHeadless",
+    "test:teamcity": "ng test --code-coverage --reporters=teamcity,coverage-istanbul"
   },
   "private": true,
   "dependencies": {
