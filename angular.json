@@ -66,6 +66,12 @@
             },
             "development": {
               "buildTarget": "demo:build:development"
+            },
+            "ci": {
+              "karmaConfig": "./karma.conf.ci.js",
+              "watch": false,
+              "codeCoverage": true,
+              "reporters": ["teamcity"]
             }
           },
           "defaultConfiguration": "development"
