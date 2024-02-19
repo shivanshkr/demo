@@ -9,7 +9,7 @@
     "test": "ng test",
     "test:coverage": "ng test --no-watch --code-coverage --browsers ChromeHeadless",
     "test:teamcity": " ng test --watch=false --code-coverage --browsers=ChromeHeadless --reporters=teamcity",
-    "test:ci": "ng t app --configuration=ci"
+    "test:ci": "ng t demo --configuration=ci"
   },
   "private": true,
   "dependencies": {
