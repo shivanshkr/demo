@@ -10,7 +10,7 @@
     "test:once": "ng test --watch=false",
     "test:coverage": "ng test --no-watch --code-coverage --browsers ChromeHeadless",
     "test:teamcity": " ng test --watch=false --code-coverage --browsers=ChromeHeadless --reporters=teamcity",
-    "test:ci": "ng t demo --watch=false --code-coverage --karma-config=karma.conf.js"
+    "test:ci": "ng t demo --watch=false --code-coverage --reporters=teamcity --karma-config=karma.conf.js"
   },
   "private": true,
   "dependencies": {
