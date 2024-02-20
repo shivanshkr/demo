@@ -9,7 +9,7 @@
     "test": "ng test",
     "test:coverage": "ng test --no-watch --code-coverage --browsers ChromeHeadless",
     "test:teamcity": " ng test --watch=false --code-coverage --browsers=ChromeHeadless --reporters=teamcity",
-    "test:ci": "ng t demo --configuration=ci"
+    "test:ci": "ng t demo --watch=false --code-coverage --browsers=ChromeHeadless --reporters=teamcity --karma-config=karma.conf.js"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +21,7 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/router": "^17.2.0",
+    "karma-coverage-istanbul-reporter": "^3.0.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
