@@ -8,7 +8,8 @@ module.exports = function (config) {
             require('karma-chrome-launcher'),
             require('karma-coverage'),
             require('@angular-devkit/build-angular/plugins/karma'),
-            require('karma-teamcity-reporter')
+            require('karma-teamcity-reporter'),
+            require('karma-phantomjs-launcher')
         ],
         client: {
             clearContext: false,
